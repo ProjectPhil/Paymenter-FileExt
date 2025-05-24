@@ -7,10 +7,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 
-class FileUploadController extends Controller
-{
-    public function __invoke(Request $request)
-    {
+class FileUploadController extends Controller {
+    public function __invoke(Request $request) {
         $request->validate([
             'file' => 'required|file|max:10240',
             'disk' => 'required|string',
@@ -24,8 +22,6 @@ class FileUploadController extends Controller
         $filename = Str::random(40) . '.' . $file->getClientOriginalExtension();
         $path = $file->storeAs($directory, $filename, $disk);
 
-        return response()->json([
-            'path' => $path,
-        ]);
+        return response()->json(['path' => $path]);
     }
 } 

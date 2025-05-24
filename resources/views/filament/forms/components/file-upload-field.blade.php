@@ -1,9 +1,5 @@
-<x-dynamic-component
-    :component="$getFieldWrapperView()"
-    :field="$field"
->
-    <div
-        x-data="{
+<x-dynamic-component :component="$getFieldWrapperView()":field="$field">
+    <div x-data="{
             state: $wire.{{ $applyStateBindingModifiers('entangle(\'' . $getStatePath() . '\')') }},
             uploadFile(e) {
                 const file = e.target.files[0];
