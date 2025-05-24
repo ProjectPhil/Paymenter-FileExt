@@ -1,4 +1,3 @@
-````markdown
 # Paymenter FileExt 
 
 An extension for [Paymenter](https://github.com/Paymenter/Paymenter) that adds secure file upload support to products—ideal for downloadable items like software, PDFs, images, and more.
