@@ -1,25 +1,5 @@
-Great! Since this is for **Paymenter**—your open-source billing & hosting platform—here’s a GitHub README and a fitting name for your **file upload server extension for products** within Paymenter.
-
----
-
-### ✅ Name Suggestion for Paymenter Upload Extension
-
-**paymenter-product-uploader**
-
-Other options:
-
-* `paymenter-upload`
-* `paymenter-product-files`
-* `paymenter-filemanager`
-
-Let’s use **paymenter-product-uploader** as the default in the README.
-
----
-
-### 📄 `README.md` for **paymenter-product-uploader**
-
 ````markdown
-# paymenter-product-uploader
+# Paymenter FileExt 
 
 An extension for [Paymenter](https://github.com/Paymenter/Paymenter) that adds secure file upload support to products—ideal for downloadable items like software, PDFs, images, and more.
 
